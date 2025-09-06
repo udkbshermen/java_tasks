@@ -18,7 +18,7 @@ public class Task5{
         Collections.sort(numbers);
         
         //checks if all numbers are equal, prints last index (largest) if not
-        if (numbers.get(0) == numbers.get(1) && numbers.get(0) == numbers.get(2))
+        if (numbers.get(0).equals(numbers.get(1)) && numbers.get(0).equals(numbers.get(2)))
             System.out.println("All numbers are equal.");
         else
             System.out.println(numbers.get(2)+ " is the largest number.");
