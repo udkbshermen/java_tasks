@@ -11,11 +11,11 @@ public class Task6 {
         958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470, 743, 527};
     
     // Your code goes here
-        for (int number: numbers)
-            if (number == 237)
-                break;
+        for (int number: numbers) //loop numbers for print
+            if (number == 237) // check if number in the array is 237
+                break; //if yes, don't print onwards
             else 
-                if (number % 2 == 0)
-                    System.out.println(number);
+                if (number % 2 == 0) //if not, check if even number
+                    System.out.println(number); //print if even number
 }
 }
