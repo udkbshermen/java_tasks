@@ -13,7 +13,9 @@ class Point {
 
     // Your code goes here
     public void scale() {
-        System.out.println("(" + x/2 + "," + y/2 + ")");
+        this.x = x/2;
+        this.y = y/2;
+
     }
 }
 
