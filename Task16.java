@@ -13,7 +13,7 @@ class Gorilla implements Animal {
         //lather, rinse, repeat
     }
 
-    void per(){
+    void pet(){
         //pet at your own risk
     }
 }
